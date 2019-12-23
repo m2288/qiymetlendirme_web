@@ -1,0 +1,1 @@
+# qiymetlendirme_web
