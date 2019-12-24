@@ -1,0 +1,145 @@
+@font-face {
+    font-family: 'Segoe UI';
+    src: url("../fonts/segoeui.eot");font-weight: normal;
+    font-style: normal; }
+* {
+    align-self: center;
+    box-sizing: border-box;
+    padding: 5px;
+    max-width: 300px;
+}
+
+body {
+    background-color: #CCCCCC;
+    font-family: 'Segoe UI';
+    width: 280px;
+}
+
+input {
+    width: 35%;
+}
+
+button{
+    border-style: groove;
+    border-style: solid;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+
+
+#header {
+    border: 1px solid #b5b7ba;
+    background-color: #0099CC;
+    height: 50px;
+    text-align: center;
+
+    padding-top: 5px;
+}
+
+#header #selected {
+    color: #000;
+}
+
+#header a {
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: left;
+    text-decoration: none;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+}
+
+#header span {
+    padding: 0 38px;
+}
+
+.main_box {
+    margin: 2px;
+    padding: 3px;
+    text-align: center;
+    
+    border: 1px;
+
+}
+
+.inner_box {
+    
+    align-items: left;
+
+}
+
+.sq_inputs {
+    display:inline;
+    margin: 6px;
+    padding: 3px;
+    text-align: left;
+    
+    border: 1px;
+
+}
+
+.sq_inputs p {
+    display:inline;
+    margin: 2px;
+    padding: 3px;
+    text-align: left;
+    width: 25%;
+    border: 1px;
+
+}
+
+.sq_titles {
+    margin: 6px;
+    padding: 3px;
+    text-align: left;
+    width: 10px;
+    border: 1px;
+    display:inline; 
+
+}
+
+.buttons_box {
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    border: 1px;
+
+}
+
+.messages_box {
+    margin: 2px;
+    padding: 3px;
+    text-align: center;
+    color: #9E9E9E;
+    border-style: groove;    
+    border: 1px solid black;
+    border-radius: 8px;
+
+}
+
+.hesabla_buttons_class{
+    background-color: #0099CC;
+
+}
+
+.sifirla_buttons_class{
+    background-color: #FF0000;
+    
+}
+
+.bal_netice{
+    margin: 4px;
+    padding: 2px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.qiymet_netice{
+    margin: 4px;
+    padding: 2px;
+    font-size: 20px;
+    font-weight: 100;
+}
